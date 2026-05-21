@@ -31,3 +31,6 @@ This project utilizes the **xBD Dataset**, a large-scale, high-resolution satell
    ```bash
    git clone [https://github.com/Kiransai2509/post-disaster-damage-assessment.git](https://github.com/Kiransai2509/post-disaster-damage-assessment.git)
    cd post-disaster-damage-assessment
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
