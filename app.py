@@ -21,6 +21,7 @@ def load_model():
     model = models.resnet18()
     model.fc = nn.Linear(model.fc.in_features, 2)
     # NOTE: You will need to download your .pth file from Google Drive and put it in the same folder as this script!
+    # To get the .pth file you nned to run all the commands in the Google Colab, it gets saved in the Drive after training the Model
     model.load_state_dict(torch.load('resnet18_damage_assessment_v1.pth', map_location=device))
     model.eval()
     return model, device
